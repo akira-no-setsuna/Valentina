@@ -27,5 +27,17 @@
         <PackageReference Include="MonoGame.Framework.Content.Pipeline" Version="3.8.5.1" />
         <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.*"/>
         <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.*"/>
+        <PackageReference Include="Stateless" Version="5.20.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="Content\Configs\phrases.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Content\bin\DesktopGL\Musics\" />
+      <Folder Include="Content\Musics\" />
     </ItemGroup>
 </Project>

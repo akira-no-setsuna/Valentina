@@ -1,2 +1,4 @@
-﻿using var game = new Valentina.GameManager();
+﻿using Valentina.Core;
+
+using var game = new GameManager();
 game.Run();
